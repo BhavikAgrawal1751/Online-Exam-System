@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Open+Sans:wght@300&family=Oswald:wght@600&family=Roboto+Slab:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* color: wheat; */
+}
+
+body {
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  font-family: sans-serif;
+  color: #f4f4ed;
+}
+
+.navbar {
+  text-align: center;
+  background-color: rgb(31, 31, 31, 0.9);
+  font-size: 2.5rem;
+  margin-top: 1.5%;
+  box-shadow: 0 0 7px #6a6a66;
+  color: rgb(0, 153, 255, 0.6);
+}
+
+main {
+  height: 100%;
+  background-color: rgb(31, 31, 31, 0.9);
+  /* box-shadow: 0 0 10px #6A6A66; */
+  margin-top: 2%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.form h1 {
+  margin-top: 5%;
+  font-size: 2rem;
+  text-shadow: 0 0 3px #6a6a66;
+}
+
+.form label {
+  font-size: 1.4rem;
+  margin-top: 1.5%;
+  margin-bottom: 0.75%;
+}
+
+.form input {
+  width: 60%;
+  font-size: 1.1rem;
+  outline: none;
+  /* border-radius: 7px; */
+  padding: 2px 1%;
+  background-color: rgb(31, 31, 31, 0.9);
+  border: none;
+  border-bottom: 2px solid rgb(256, 256, 256, 0.75);
+  color: rgb(0, 153, 255, 0.6);
+  margin-left: 2%;
+}
+
+.form input::placeholder{
+  color: rgb(0, 153, 255, 0.6);
+}
+
+.form select {
+  width: 60%;
+  font-size: 1.1rem;
+  outline: none;
+  padding: 2px 1, 0.6%;
+  /* border-radius: 7px; */
+  background-color: rgb(31, 31, 31, 0.9);
+  border: none;
+  border-bottom: 2px solid rgb(256, 256, 256, 0.75);
+  color: rgb(0, 153, 255, 0.6);
+  margin-left: 2%;
+}
+
+.btn {
+  margin-top: 1.25%;
+  /* border: 1px solid wheat; */
+  width: 22%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn > button {
+  width: 49%;
+  height: 2.3pc;
+  border-radius: 10px;
+  background-color: rgb(6, 97, 157);
+  border: none;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  cursor: pointer;
+}
+
+.btn #reset {
+  background-color: rgb(31, 31, 31, 0.9);
+  /* background-color: rgb(6, 97, 157, 0.25); */
+  border: none;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: rgb(8 133 217/0.75);
+  /* color: #121212;!important */
+}
+
+#reset:hover {
+  background-color: rgb(6, 97, 157);
+  color: #121212;
+}
+
+.btn > button:hover{
+    box-shadow: 0 0 5px white;
+}
+
+.subject{
+  margin: 5% 0 0 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.subject h1{
+  text-shadow: 0 0 3px #6a6a66;
+}
+
+.subject label{
+  font-size: 1.4rem;
+  margin-top: 1.5%;
+  margin-bottom: 0.75%;
+}
+
+.subject select{
+  width: 60%;
+  font-size: 1.1rem;
+  outline: none;
+  padding: 2px 1, 0.6%;
+  /* border-radius: 7px; */
+  background-color: rgb(31, 31, 31, 0.9);
+  border: none;
+  border-bottom: 2px solid rgb(256, 256, 256, 0.75);
+  color: rgb(0, 153, 255, 0.6);
+  margin-left: 2%;
+}
+
+.subject button{
+  height: 2.3pc;
+  width: 10%;
+  border-radius: 10px;
+  background-color: rgb(6, 97, 157);
+  border: none;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  cursor: pointer;
+  margin-top: 1.25%;
+}
+
+.subject button:hover{
+  box-shadow: 0 0 5px white;
+}
+
+.info{
+  margin: 5% 0 0 10%;
+}
+
+.info h1{
+  margin-bottom: 0.75%;
+  text-shadow: 0 0 3px #6a6a66;
+}
+
+.info table{
+  width: 80%;
+  border: 0 solid rgb(0, 153, 255, 0.6);
+}
+
+footer{
+  background-color: rgb(31, 31, 31, 0.9);
+  margin-top: 4%;
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+h2{
+  margin-bottom: 50px;
+}
